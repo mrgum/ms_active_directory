@@ -133,7 +133,7 @@ class ObjectCreationException(MsActiveDirectoryException):
         super().__init__(exception_str)
 
 
-class ObjectDeleionException(MsActiveDirectoryException):
+class ObjectDeletionException(MsActiveDirectoryException):
     """ An exception raised when an error is encountered deleting an object """
     def __init__(self, exception_str):
         super().__init__(exception_str)
